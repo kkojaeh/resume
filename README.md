@@ -25,7 +25,7 @@
 
 ### [이서린](https://github.com/slleee)(개발자, NHN, 직장동료)
 
-### [김동영](https://github.com/unknown)(개발자, NHN, 직장동료)
+### [김동영](https://github.com/idean3885)(개발자, NHN, 직장동료)
 
 ### [김상기](https://github.com/unknown)(개발자, NHN, 직장동료)
 
