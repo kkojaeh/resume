@@ -17,14 +17,82 @@
 ## 회사 경력
 
 ## 사용 기술
-| 분야 | 기술명          | 설명                                                              |
-|----|--------------|-----------------------------------------------------------------|
-| 언어 | java         | (2007년~) 주력 언어로 사용중 입니다.                                        |
-| 언어 | kotlin       | (2019년~) 간단한 안드로드이드 앱 및 일부 프로젝트에서 사용했었고 코루틴을 심도 있게 사용하지는 않았습니다. |
-| 언어 | groovy       | (2015년~) 언어적 spockframework 을 사용하여 테스트를 작성 사용               |
-| 언어 | javascript   | .                                                               |
-| 언어 | typescript   | .                                                               |
-| 언어 | actionscript | .                                                               |
+| 분야        | 기술명             | 설명                                                                             |
+|-----------|-----------------|--------------------------------------------------------------------------------|
+| 언어        | java            | (2007년~) 주력 언어로 사용                                                             |
+| 언어        | kotlin          | (2019년~) 간단한 안드로드이드 앱 및 일부 프로젝트에서 사용                                           |
+| 언어        | groovy          | (2015년~) 언어적 spockframework 을 사용하여 테스트를 작성 사용                                  |
+| 언어        | javascript      | (2007년~) 제2의 주력 언어로 사용하며 be/fe 로 꾸준히 사용                                        |
+| 언어        | typescript      | (2019년~) javascript 환경에서 복잡한 구현이 필요할 때 가끔 사용                                   |
+| 언어        | actionscript    | (2009년~ 2016년) flex 프레임웍을 통한 라이브러리 구현 및 adobe 통합 기능 개발시 사용                     |
+| 언어        | python          | (2023년~) 인계 받은 프로젝트 유지보수를 위해 간략히 사용                                            |
+| 프레임웍(BE)  | spring          | (2014년~) be 주력 프레임웍으로 사용 <br/> boot, security, cloud, data, web, jpa 등등 다양하게 사용 |
+| 프레임웍(BE)  | express.js      | (2019년~) 간단한 프로젝트 또는 활용해야할 구현체가 노드로 구현되어 있을 때 간간히 사용                           |
+| 프레임웍(FE)  | polymer         | .                                                                              |
+| 프레임웍(FE)  | vue.js(2/3)     | .                                                                              |
+| 프레임웍(FE)  | ext.js(3/4/5)   | .                                                                              |
+| 프레임웍(FE)  | flex(4)         | .                                                                              |
+| 프레임웍(FE)  | nuxt.js(2/3)    | .                                                                              |
+| 프레임웍(FE)  | next.js(13)     | .                                                                              |
+| 라이브러리(BE) | JPA(hibernate)  | .                                                                              |
+| 라이브러리(BE) | query DSL       | .                                                                              |
+| 라이브러리(BE) | mybatis         | .                                                                              |
+| 라이브러리(BE) | lombok          | .                                                                              |
+| 라이브러리(BE) | logback         | .                                                                              |
+| 라이브러리(BE) | socket.io       | (2019년~) 서버/클라이언트 간 이벤트 통신 필요시 인증, 클러스터링, MSA 통합등을 더해 사용                       |
+| 라이브러리(FE) | axios           | .                                                                              |
+| 라이브러리(FE) | jquery          | .                                                                              |
+| 라이브러리(FE) | pdfkit          | .                                                                              |
+| 라이브러리(FE) | ag-grid         | .                                                                              |
+| 라이브러리(FE) | toast-ui-grid   | .                                                                              |
+| 라이브러리(FE) | toast-ui-editor | .                                                                              |
+| 테스트(BE)   | junit           | .                                                                              |
+| 테스트(BE)   | spockframework  | .                                                                              |
+| 테스트(BE)   | archunit        | .                                                                              |
+| 테스트(BE)   | jest            | .                                                                              |
+| 테스트(기타)   | cypress         | .                                                                              |
+| 테스트(기타)   | k6              | .                                                                              |
+| 데이터베이스    | MySQL           | .                                                                              |
+| 데이터베이스    | MongoDB         | .                                                                              |
+| 데이터베이스    | Redis           | .                                                                              |
+| 데이터베이스    | Oracle          | .                                                                              |
+| 데이터베이스    | Hazelcast       | .                                                                              |
+| 캐싱        | Memcached       | .                                                                              |
+| 캐싱        | EHCache         | .                                                                              |
+| 로드밸런서     | HAProxy         | .                                                                              |
+| 웹서버       | nginx           | .                                                                              |
+| 웹서버       | HTTPD           | .                                                                              |
+| 도구        | flyway          | .                                                                              |
+| 도구        | jenkins         | .                                                                              |
+| 도구        | gradle          | .                                                                              |
+| 도구        | maven           | .                                                                              |
+| 도구        | npm(yarn)       | .                                                                              |
+| 도구        | webpack         | .                                                                              |
+| 도구        | babel           | .                                                                              |
+| .         | ansible         | .                                                                              |
+| .         | nexus           | .                                                                              |
+| .         | pm2             | .                                                                              |
+| .         | openLDAP        | .                                                                              |
+| .         | Kubernates      | .                                                                              |
+| .         | OpenLens        | .                                                                              |
+| .         | fluentd         | .                                                                              |
+| .         | logstash        | .                                                                              |
+| .         | sentry.io       | .                                                                              |
+| .         | scouter         | .                                                                              |
+| .         | pinpoint        | .                                                                              |
+| .         | ElasticAPM      | .                                                                              |
+| .         | filebeat        | .                                                                              |
+| .         | prometheus      | .                                                                              |
+| .         | grafana         | .                                                                              |
+| cloud     | AWS             | Lambda, SES, Gateway API, Beanstalk, RDS, MQ, ElasticCache, Route53, IAM       |
+| cloud     | Firebase        | .                                                                              |
+| . | Swagger         | .                                                                               |
+| . | findbugs        | .                                                                               |
+| . | sonarqube       | .                                                                               |
+| . | selenium        | .                                                                               |
+
+
+| . |  | .                                                                               | 
 
 ## 자격 사항
 | 자격 종류   | 등급  | 취득일        | 발급 기관 |
