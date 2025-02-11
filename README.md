@@ -17,16 +17,16 @@
 
 ## 회사 경력
 
-| 회사             | 근무기간              | 비고 |
-|----------------|-------------------|----|
-| NHN Enterprise | 2024-02 ~ 2025-02 |    |
-| NHN Cloud      | 2022-09 ~ 2024-01 |    |
-| NHN SOFT       | 2021-10 ~ 2022-08 |    |
-| 토글랩스           | 2019-05 ~ 2021-07 |    |
-| 에이스팩           | 2017-11 ~ 2019-04 |    |
-| 네이미            | 2017-04 ~ 2017-08 |    |
-| 프리랜서(엠로)       | 2016-08 ~ 2017-03 |    |
-| 엠로             | 2007-01 ~ 2016-04 |    |
+| 회사                                                                                                                              | 근무기간              | 비고 |
+|---------------------------------------------------------------------------------------------------------------------------------|-------------------|----|
+| [NHN Enterprise](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#nhn-enterprise)                                   | 2024-02 ~ 2025-02 |    |
+| [NHN Cloud](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#nhn-cloud)                                             | 2022-09 ~ 2024-01 |    |
+| [NHN SOFT](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#nhn-soft)                                               | 2021-10 ~ 2022-08 |    |
+| [토글랩스](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#%ED%86%A0%EA%B8%80%EB%9E%A9%EC%8A%A4)                       | 2019-05 ~ 2021-07 |    |
+| [에이스팩](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#%EC%97%90%EC%9D%B4%EC%8A%A4%ED%8C%A9)                       | 2017-11 ~ 2019-04 |    |
+| [네이미](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#%EB%84%A4%EC%9D%B4%EB%AF%B8)                                 | 2017-04 ~ 2017-08 |    |
+| [프리랜서(엠로)](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EC%97%A0%EB%A1%9C) | 2016-08 ~ 2017-03 |    |
+| [엠로](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md#%EC%97%A0%EB%A1%9C)                                           | 2007-01 ~ 2016-04 |    |
 
 [자세한 내용](https://github.com/kkojaeh/resume/blob/master/EXPERIENCES.md) 은 별도의 페이지에 기술 하였습니다.
 
