@@ -5,6 +5,7 @@
 - email: kkojaeh@gmail.com
 - github: https://github.com/kkojaeh
 - birthday: 1983-11-30
+- military: 육군 병자 만기전역(2003-10-27 ~ 2005-10-26)
 
 ## 어떤 개발자?
 
