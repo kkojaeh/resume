@@ -1,5 +1,26 @@
 # 경력사항
 
+## 한국타이어
+
+| 유형   | 부서명     | 근무기간                    | 직책 | 업무내용(요약)                                                   |
+|------|---------|-------------------------|----|------------------------------------------------------------|
+| 프리랜서 | 디지털 SI팀 | 2025-07-01 ~ 2025-02-17 | 팀장 | 쿠버네티스 기반으로 회원 사용자의 코드를 빌드/배포 하는 시스템 개발/운영                  |
+
+### ES산전영업관리시스템
+- 설계/개발
+
+#### 사용기술 및 도구
+> maven, jpa, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
+mybatis, jsp, dhtmlx scheduler, mermaid 
+
+#### 회고
+- jsp 를 기반으로한 사내 프레임웍을 기반으로 개발해야 해서 vue.js 와 배포/개발에 대해 고민함
+  - vite.js 의 build 옵션에 watch 를 사용하여 변경 감지
+    - 외부 모듈 사용시 성능 감소 현상
+  - 간단한 vite 플러그인을 개발하여 src/main/webapp 로 동기화 되도록 함
+  - jsp 당 하나의 번들링된 html 을 생성하고 이를 jsp include 기능을 통해 통합
+    - vite 설정중 rollupOptions.input 을 개발할 jsp 페이지 수 만큼 등록
+
 ## NHN Enterprise
 
 > [NHN Enterprise](https://nhnenterprise.com/) 는 인프라 서비스와 클라우드 운영 서비스를 제공하는 회사 입니다
