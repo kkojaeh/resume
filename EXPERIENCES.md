@@ -13,7 +13,8 @@
 #### 사용기술 및 도구
 
 > maven, jpa, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
-> mybatis, jsp, dhtmlx scheduler, mermaid
+> mybatis, jsp, dhtmlx scheduler, mermaid,
+> gemini-cli
 
 #### 회고
 
@@ -23,6 +24,10 @@
     - 간단한 vite 플러그인을 개발하여 src/main/webapp 로 동기화 되도록 함
     - jsp 당 하나의 번들링된 html 을 생성하고 이를 jsp include 기능을 통해 통합
         - vite 설정중 rollupOptions.input 을 개발할 jsp 페이지 수 만큼 등록
+- gemini-cli 활용
+  - gemini를 통해 be, fe 의 코딩 컨벤션을 작성하고 mermaid로 작성한 erd 를 통해 코드 작성  
+  - fe 의 경우 ppt 기획서를 직접 참고하지 못하여 화면을 이미지로 캡처하여 전달
+  - fe 기술을 정의하고 패턴을 정의하는 커뮤니케이션을 반복하여 원하는 fe 코드 작성
 
 ## NHN Enterprise
 
