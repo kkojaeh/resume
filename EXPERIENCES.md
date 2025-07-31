@@ -14,7 +14,7 @@
 
 > maven, jpa, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
 > mybatis, jsp, dhtmlx scheduler, mermaid,
-> gemini-cli
+> gemini-cli(2.5), claude code(sonnet 4), qwen code(3)
 
 #### 회고
 
@@ -37,6 +37,10 @@
   - gemini-cli 대비 코드 작성에 더 체계적이고 적극적인 기여를 하려는 경향이 있었다
   - playwright mcp 를 연결해서 브라우저를 활용해 fe 코드 테스트나 디자인 부분에 대한 확인 등에 활용
   - gemini-cli 대비 playwright mcp 활용이 뛰어 났다 사용하는 속도나 적용 방식에 확실한 차이가 있었다
+- qwen code 테스트
+  - 새로 출시된 모델로 시험삼아 사용해 봤지만 큰 실망을 하게 됨
+  - gemini-cli 를 복사한 듯한 cli 와 결과를 도출하지 못하고 계속 대기하는 문제가 발생
+  - 30분 정도 사용 후 삭제하였으며 초기에 크레딧이 있다고 했지만 잠시 사용한 내용이 과금되어 비용을 지불했다
 
 
 ## NHN Enterprise
