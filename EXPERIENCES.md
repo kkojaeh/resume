@@ -9,12 +9,12 @@
 ### ES산전영업관리시스템
 
 - 설계/개발
-- 2025-07-01 ~ 2025-09-?? 
+- 2025-07-01 ~ 2025-09-09 
 
 #### 사용기술 및 도구
 
 > maven, jpa, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
-> mybatis, jsp, dhtmlx scheduler, mermaid,
+> mybatis, jsp, dhtmlx scheduler, mermaid, oracle
 > gemini-cli(2.5), claude code(sonnet 4), qwen code(3)
 
 #### 회고
@@ -47,7 +47,30 @@
   - 엑셀로 받은 데이터를 데이터베이스에 넣는 INSERT 문을 만드는 함수 생성 부터 데이터 검증 방식 및 절차 구성을 도움 받아 진행이 매우 순조로웠다
   - **AI 로 만드는 결과에 대하여 다른 모델을 같이 사용하면서 교차 검증하는 형태로 진행 했을 때 결과가 가장 좋았다**
 
-### ?
+### 가격 결정 시스템 리버스 엔지니어링을 통한 시뮬레이션 구축
+
+- 일부 분석/개발
+- 2025-09-10 ~ ?
+#### 사용기술 및 도구
+
+> maven, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
+> mybatis, jsp, mermaid, accessdb, csv, h2, mssql
+> gemini-cli(2.5), claude code(sonnet 4.5)
+
+- 대용량의 CSV 테이블로 import 후 mssql 에서 쿼리 실행하여 데이터 생성
+  - 65개의 5~200mb 크기의 CSV 를 import 필요
+  - 초기 데이터 생성을 H2 의 CSVREAD 를 이용하여 메모리 데이터베이스에 테이블을 생성 후 insert sql 생성 방식을 이용
+    - CSV 읽기와 insert sql 생성은 빠르지만 실행에 많은 시간이 발생
+  - 여러 방안을 모색중에 SQLServerBulkCopy 문서를 확인하여 테스트
+    - H2 에 테이블 생성까지는 동일하게 처리하고 H2 에 질의한 ResultSet 을 SQLServerBulkCopy 에 전달하여 처리 시도
+    - 우려와 달리 H2 에서 생성된 ResultSet 을 그대로 전송이 가능하여 성공
+  - insert sql 실행 방식이 1시간 이상이 걸렸지만 SQLServerBulkCopy 를 이용하여 3분 정도에 처리 완료
+- 레거시 accessdb 쿼리를 mssql 로 전환
+  - 레거시 accessdb 쿼리를 작성한 개발자가 괄호 성애자 였던 것 같다
+  - 그냥 컬럼에도 괄호, 모든 연상에 괄호, AND 조건에도 괄호...
+  - 많은 괄호로 인해 가독성이 떨어져 괄호 제거 작업을 추가로 진행했다
+- JPA 는 패스
+  - 기존 쿼리를 전환하는 형태이기 때문에 JPA는 사용하지 않았다
 
 
 ## NHN Enterprise
