@@ -71,6 +71,21 @@
   - 많은 괄호로 인해 가독성이 떨어져 괄호 제거 작업을 추가로 진행했다
 - JPA 는 패스
   - 기존 쿼리를 전환하는 형태이기 때문에 JPA는 사용하지 않았다
+- 기존의 accessdb 쿼리를 mssql 로 전환하는 작업을 진행
+  - 임시테이블 사용
+    - #테이블명 : 컨넥션 한정 임시테이블
+    - ##테이블명 : 글로벌 컨넥션 임시테이블
+  - 자주 안쓰던 문법 경험
+    - select .. into
+    - insert into .. select
+- mybatis 활용 능력이 향상함
+  - `<include/>` 및 `<property/>` 및 OGNL 활용한 다이나믹 쿼리 생성
+    - `<include refid="sales_price_source">
+            <property name="type" value="pugKalk"/>
+        </include>`
+    - `<bind name="typeValue" value="config['${type}']" />`
+- 패턴화하여 패턴당 as-is 와 to-be 2개의 예제를 제시하여 AI에게 작업 지시하여 매우 효과적으로 전환이 가능 했다
+  - 조금이라도 패턴이 맞지 않으면 주석을 추가하고 스킵 처리해야 함을 명시하여 AI의 할루시네이션을 방지하지하는 장치를 사용함  
 
 
 ## NHN Enterprise
