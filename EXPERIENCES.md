@@ -92,7 +92,7 @@
   - 데이터를 vue 를 거치지 않고 직접 ag-grid api 를 사용(vue 를 거치면 페이지가 종료되는 현상 발생)
 - 대용량의 CSV 테이블로 import 를 mssql 로 만들었던 기능을 oracle 로 전환
   - SQLServerBulkCopy 와 같은 기능은 제공되지 않음
-  - oracle 서버 인스턴스에서 파일을 진접 전근 할 수 있는 환경 구축은 불가
+  - oracle 서버 인스턴스에서 파일을 직접 접근 할 수 있는 환경 구축은 불가
   - 최신의 oracle 버전에서는 clob 데이터를 통해 csv 를 해석하여 insert 할 수 있음을 확인
   - 현재 사용중인 oracle 버전에서는 위의 기능을 제공하지 않지만 json 은 가능함을 확인
   - H2 에 생성된 CSV 테이블의 ResultSet 을 JSON 으로 직렬화 후 CLOB 으로 oracle 에 insert
