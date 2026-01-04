@@ -90,6 +90,17 @@
   - 커서 페이징 방식으로 모든 페이지를 클라이언트 메모리에 불러와 처리하도록 함
   - 대용량을 지원하는 ag-grid 로 표현
   - 데이터를 vue 를 거치지 않고 직접 ag-grid api 를 사용(vue 를 거치면 페이지가 종료되는 현상 발생)
+- 대용량의 CSV 테이블로 import 를 mssql 로 만들었던 기능을 oracle 로 전환
+  - SQLServerBulkCopy 와 같은 기능은 제공되지 않음
+  - oracle 서버 인스턴스에서 파일을 진접 전근 할 수 있는 환경 구축은 불가
+  - 최신의 oracle 버전에서는 clob 데이터를 통해 csv 를 해석하여 insert 할 수 있음을 확인
+  - 현재 사용중인 oracle 버전에서는 위의 기능을 제공하지 않지만 json 은 가능함을 확인
+  - H2 에 생성된 CSV 테이블의 ResultSet 을 JSON 으로 직렬화 후 CLOB 으로 oracle 에 insert
+  - oracle 에서 제공하는 json 처리 기능을 활용하여 테이블 행 데이터로 전환하여 저장하는 방식으로 SQLServerBulkCopy 으로 처리할 때와 유사한 속도로 전환
+  - sql 처리 로그로 인하여 OOM 이 발생되는 현상이 발견되어 별도 proxy datasource 를 사용하지 않도록 개선하여 해결
+- mybatis 에서 OGNL 사용 이상 현상 발생 해결
+  - OGNL 동작시 캐싱에 의해 이상현상이 발생함을 확인하여 표현 방식을 변경하여 정상 동작하도록 개선
+- 데이터 처리 job 들의 스케줄링 설정을 jobrunr 를 활용하여 구현
 
 
 ## NHN Enterprise
