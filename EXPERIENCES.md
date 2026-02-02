@@ -54,7 +54,7 @@
 #### 사용기술 및 도구
 
 > maven, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
-> mybatis, jsp, mermaid, accessdb, csv, h2, mssql
+> mybatis, jsp, mermaid, accessdb, csv, h2, mssql, oracle
 > gemini-cli(2.5), claude code(sonnet 4.5)
 
 - 대용량의 CSV 테이블로 import 후 mssql 에서 쿼리 실행하여 데이터 생성
@@ -101,6 +101,9 @@
 - mybatis 에서 OGNL 사용 이상 현상 발생 해결
   - OGNL 동작시 캐싱에 의해 이상현상이 발생함을 확인하여 표현 방식을 변경하여 정상 동작하도록 개선
 - 데이터 처리 job 들의 스케줄링 설정을 jobrunr 를 활용하여 구현
+- CSV 테이블 저장 처리 속도 및 유지보수를 위한 개선
+  - CSV 관련 정보(파일 수정 시간, 처리 상태) 를 테이블로 관리
+  - 전체 파일 처리 상의 문제점(파일 존재 여부, 형식 문제)이나 갱신 시간을 쉽게 확인 가능
 
 
 ## NHN Enterprise
