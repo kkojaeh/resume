@@ -50,7 +50,8 @@
 ### 가격 결정 시스템 리버스 엔지니어링을 통한 시뮬레이션 구축
 
 - 일부 분석/개발
-- 2025-09-10 ~ ?
+- 2025-09-10 ~ 2026-02-10
+
 #### 사용기술 및 도구
 
 > maven, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
@@ -105,6 +106,20 @@
   - CSV 관련 정보(파일 수정 시간, 처리 상태) 를 테이블로 관리
   - 전체 파일 처리 상의 문제점(파일 존재 여부, 형식 문제)이나 갱신 시간을 쉽게 확인 가능
 
+### 통합 바코드 관리 시스템 구축
+
+개별 공장 별로 바코드를 관리하는 방식이 달라 이를 통합하여 관리 하는 시스템을 구축
+성능의 문제로 개별 공장 별로 별도의 데이터베이스를 구축하고 이를 중앙의 데이터베이스에
+주기적으로 적재하여 조회 전용 기능을 제공한다는 초기 기획 
+
+- 분석/개발
+- 2026-02-11 ~ ?
+
+#### 사용기술 및 도구
+
+> maven, spring boot, vue.js 3, ag-grid, zod, vite.js, axios, quasar framework, jenkins,
+> mybatis, jsp, mermaid, csv, h2, oracle
+> gemini-cli(3), claude code(sonnet 4.6)
 
 ## NHN Enterprise
 
