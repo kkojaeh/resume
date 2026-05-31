@@ -121,6 +121,12 @@
 > mybatis, jsp, mermaid, csv, h2, oracle
 > gemini-cli(3), claude code(sonnet 4.6)
 
+- AI 를 통한 레거시 분석
+  - 기존 as-is 코드를 분석하여 to-be 방식을 결정해야 하는 상황
+  - 기존 as-is 코드는 특정 회사의 프레임웍 기반의 java 프로젝트이며 트랜잭션 처리가 모두 프로시저로 구현되어 있는 구조
+  - oracle SQLcl 및 database mcp 를 이용하여 기존 코드를 분석 정리를 하려 했지만 환각으로 인한 결과물 품질의 저하 발생
+  - 분석 대상 선정 및 실 검증을 직접 분석과 함께 병행하여 환각을 제거함  
+
 ## NHN Enterprise
 
 > [NHN Enterprise](https://nhnenterprise.com/) 는 인프라 서비스와 클라우드 운영 서비스를 제공하는 회사 입니다
